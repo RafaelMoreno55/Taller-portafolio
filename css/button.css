@@ -1,0 +1,20 @@
+/*estilos para los botones*/
+.button {
+    background: var(--purple); /*color purpura para el fondo*/
+    color: var(--white); /*color blanco para la fuente*/
+    font: var(--button); /*tipo de fuente*/
+    padding-inline-start: 24px; /*espacio a la izquierda con respecto a su contenedor*/
+    padding-inline-end: 24px; /*espacio a la derecha con respecto a su contenedor*/
+    padding-block-start: 13px; /*espacio en la parte superior con respecto a su contenedor*/
+    padding-block-end: 13px; /*espacio en la parte inferior con respecto a su contenedor*/
+    border-radius: 4px; /*esquinas redondeadas del botón*/
+    text-transform: uppercase; /*convierte el texto en mayúsculas*/
+    border: none; /*sin borde el botón*/
+}
+
+/* aplicar a un elemento tanto la clase .button como la clase .is-secondary */
+.button.is-secondary {
+    background: unset; /*sin color de fondo en el botón*/
+    color: var(--purple); /*color purpura para la fuente*/
+    border: 2px solid var(--purple); /*borde de color purpura y grosor de 2px para el botón*/
+}

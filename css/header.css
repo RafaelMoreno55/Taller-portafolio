@@ -1,0 +1,5 @@
+.header {
+    display: flex;
+    justify-content: space-between; /*los elementos se muestran separados por un espacio en blanco*/
+    align-items: center; /*alinear al centro con respecto a los botones*/
+}

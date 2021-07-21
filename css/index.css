@@ -1,7 +1,10 @@
+@import "./button.css";
+@import "./header.css";
+
 /*crear variables y documentar en Design System*/
 :root {
     /*documentar todos los tamaños de tipografía */
-    --fontBase: 'Poppins', sans-serif;
+    --fontBase: 'Poppins', sans-serif; /*tipografía*/
     --headline1: bold 95px/153.71px var(--fontBase);
     --headline2: bold 59px/95.46px var(--fontBase);
     --headline3: bold 48px/77.66px var(--fontBase);
@@ -9,23 +12,19 @@
     --headline5: bold 24px/38.83px var(--fontBase);
     --body1: 16px/25.89px var(--fontBase);
     --body2: 14px/22.65px var(--fontBase);
-    --buttom: bold 14px/22.65px var(--fontBase);
+    --button: bold 14px/22.65px var(--fontBase);
     --caption: 12px/19.42px var(--fontBase);
     /*documentar el gradiante*/
     --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
-    /*documentar los colores*/
+    /*documentar los colores primarios y color de fuente*/
     --purple: #310A90;
     --green: #42E2B8;
+    --white: white;
 }
 
 body {
-    background: var(--gradient);
-    min-block-size: 100vh;
-    font: var(--body1);
-    color: var(--purple);
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
+    background: var(--gradient); /*gradiante para el fondo de la página*/
+    min-block-size: 100vh; /*establecer una altura mínimo para mejorar la visualización del gradiante*/
+    font: var(--body1); /*fuente principal para la página*/
+    color: var(--purple); /*color de la fuente principal*/
 }
