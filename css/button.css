@@ -10,6 +10,8 @@
     border-radius: 4px; /*esquinas redondeadas del botón*/
     text-transform: uppercase; /*convierte el texto en mayúsculas*/
     border: none; /*sin borde el botón*/
+    text-decoration: none; /*evitar el subrayado del texto en el botón, utilizando ancla*/
+    text-align: center; /*centrar el texto dentro del botón*/
 }
 
 /* aplicar a un elemento tanto la clase .button como la clase .is-secondary */

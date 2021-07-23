@@ -1,6 +1,7 @@
 @import "./button.css";
 @import "./button-icon.css";
 @import "./header.css";
+@import "./hero.css";
 
 /*crear variables y documentar en Design System*/
 :root {
