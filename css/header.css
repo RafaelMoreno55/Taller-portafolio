@@ -3,4 +3,7 @@
     justify-content: space-between; /*los elementos se muestran separados por un espacio en blanco*/
     align-items: center; /*alinear al centro con respecto a los botones*/
     block-size: 80px; /*agrandar el header*/
+    position: sticky; /*para que el menú sea flotante*/
+    top: 0; /*nos posicione al inicio de la página*/
+    backdrop-filter: blur(10px); /*distorciona el área en donde se coloca el menú*/
 }

@@ -1,0 +1,27 @@
+.menu {
+    display: none;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none; /*quitar los puntos de las viñetas*/
+    gap: 40px; /*separación horizontal entre cada etiqueta a*/
+}
+
+.menu ul a {
+    text-decoration: none; /*quitar el subrayado del ancla*/
+    color: var(--white);
+    font: var(--button);
+    text-transform: uppercase; /*texto de minúscula a mayúscula*/
+}
+
+.menu ul a.is-active {
+    text-decoration: none; /*quitar el subrayado del ancla*/
+    color: var(--purple);
+}
+
+@media screen and (min-width: 768px) {
+    .menu {
+        display: block;
+    }
+}
